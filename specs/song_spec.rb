@@ -9,11 +9,11 @@ class TestSong < MiniTest::Test
   end 
 
   def artist_name
-    assert_equal(@song.artist_name, "Frank Sinatra")
+    assert_equal(@song.artist, "Frank Sinatra")
   end 
 
   def artist_song_title
-    assert_equal(@song.song_title, "My Way")
+    assert_equal(@song.title, "My Way")
   end 
 
 
